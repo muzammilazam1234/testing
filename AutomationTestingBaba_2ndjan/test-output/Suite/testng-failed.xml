@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TextboxTest(failed)">
+    <classes>
+      <class name="Tests.TextboxTest">
+        <methods>
+          <include name="ClkonClose"/>
+          <include name="ClkonElement"/>
+          <include name="ClkonPractice"/>
+          <include name="TextboxClick"/>
+          <include name="validateDetails"/>
+          <include name="FillDetails"/>
+          <include name="launchURL"/>
+          <include name="getResultAnalysis"/>
+        </methods>
+      </class> <!-- Tests.TextboxTest -->
+    </classes>
+  </test> <!-- TextboxTest(failed) -->
+  <test thread-count="5" name="SelectDropDownTest(failed)">
+    <classes>
+      <class name="Tests.SelectDropDownTest">
+        <methods>
+          <include name="selectOldMenu"/>
+          <include name="selectvalueClk"/>
+          <include name="MultiSelect"/>
+          <include name="selectbyOne"/>
+          <include name="launchURL"/>
+          <include name="WidgetMenuClk"/>
+          <include name="selectMenuClk"/>
+          <include name="getResultAnalysis"/>
+        </methods>
+      </class> <!-- Tests.SelectDropDownTest -->
+    </classes>
+  </test> <!-- SelectDropDownTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

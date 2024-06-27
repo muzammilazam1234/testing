@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="LoginTest" enabled="false">
+    <classes>
+      <class name="Tests.LoginTest"/>
+      </classes>
+      </test>
+      <test name = "TextboxTest" enabled="true">
+		<classes>
+      <class name="Tests.TextboxTest"/>
+      </classes>
+      </test>
+      <test name="CheckboxTest" enabled="false">
+		<classes>
+			<class name = "Tests.CheckboxTest"/>
+			</classes>
+			</test>
+      <test name = "WebTablesTest" enabled="false">
+		<classes>
+      <class name="Tests.WebTablesTest"/>
+      </classes>
+      </test>
+      <test name = "LinksTest" enabled="false">
+		<classes>
+      <class name="Tests.LinksTest"/>
+      </classes>
+      </test>
+      <test name = "ButtonsTestPage" enabled="false">
+		<classes>
+      <class name="Tests.ButtonsTestPage"/>
+      </classes>
+      </test>
+     
+      <test name = "RadionButtonTest" enabled="false">
+		<classes>
+      <class name="Tests.RadioButtonTest"/>
+      </classes>
+      </test>
+      
+      <test name="AlertTest" enabled="false">
+		<classes>
+			<class name="Tests.AlertTest"/>
+		</classes>
+		</test>
+		
+      <test name="FrameTest" enabled="false">
+      <classes>
+		<class name="Tests.FramePageTest">
+		</class>
+	  </classes>
+	  </test> 
+	  
+      <test name="NestedFrameTest" enabled="false">
+      <classes>
+		<class name="Tests.NestedFrameTest" >
+		</class>
+	  </classes>
+	  </test>
+	  
+	  <test name="ToolTipsTest" enabled="false">
+	  <classes>
+		<class name="Tests.ToolTipsTest">
+		</class>
+	  </classes>
+	  </test>
+	  
+	  <test name ="SelectDropDownTest">
+		<classes><class name = "Tests.SelectDropDownTest">
+		</class>
+		</classes>
+	  </test>
+</suite> <!-- Suite -->
